@@ -28,7 +28,7 @@ $(document).ready(function(){
   $('form').on('submit', submitIt);
   
   $('input').on('keydown', function(key){
-    if (key.which === 103){
+    if (key.which === 71){
       pressIt;
     }
   });
