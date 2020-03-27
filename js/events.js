@@ -6,9 +6,7 @@ function getIt(){
 function frameIt(){
   //var ele = document.querySelectorAll("img");
   //ele.classList.add('tasty');
-  $(document).ready(function(){
     $('img').toggleClass('tasty');
-  });
 }
 
 function pressIt(){
